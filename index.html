@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>web page interaction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Making my website ineractive</h1>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email"><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Type your message"></textarea><br><br>
+
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Interactive Section 1 -->
+  <section>
+    <h2>Change Background Color</h2>
+    <button id="colorBtn">Change Background Color</button>
+  </section>
+
+  <!-- Interactive Section 2 -->
+  <section>
+    <h2>Counter</h2>
+    <p>Count: <span id="count">0</span></p>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
